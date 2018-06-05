@@ -338,6 +338,15 @@ a.btn-custom{
 	margin:0;
 	list-style:none;
 }
+
+a {
+  color: rgba(0,0,0,.6);
+}
+
+a:hover {
+  color: #202020;
+}
+
 .info-list > li{
 	padding:14px 0;
 	border-bottom:solid 1px rgba(0,0,0,.1);
@@ -642,6 +651,11 @@ a.btn-custom{
 /*=======================================================
 	Portfolio Section
 =======================================================*/
+.item-container {
+  margin: 0 auto;
+  width: 75%;
+}
+
 .portfolio-block .section-header{
 	margin-bottom:80px;
 }
@@ -683,7 +697,7 @@ a.btn-custom{
 	overflow:visible !important;
 }
 .portfolio-items > li{
-	width:33.3333%;
+	width:50%;
 }
 .portfolio-items > li > .inner{
 	margin:5px;
@@ -832,6 +846,10 @@ a.btn-custom{
 	max-width:450px;
 	margin:0 auto;
 	position:relative;
+}
+
+.resume-popup{
+  max-width: 612px;
 }
 .popup-box > .mfp-close{
 	top:2px;
